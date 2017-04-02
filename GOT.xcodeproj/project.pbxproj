@@ -27,10 +27,6 @@
 		8BC59BA61E8DB89E00EDA033 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BC59BA51E8DB89E00EDA033 /* GoogleService-Info.plist */; };
 		8BC59BC61E8E28E800EDA033 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BC51E8E28E700EDA033 /* TabViewController.swift */; };
 		8BC59BC81E8F00E000EDA033 /* HomeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BC71E8F00DF00EDA033 /* HomeVideoViewController.swift */; };
-		8BC59BCD1E8F020C00EDA033 /* CutomizableImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BC91E8F020C00EDA033 /* CutomizableImageViews.swift */; };
-		8BC59BCE1E8F020C00EDA033 /* CutomizableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BCA1E8F020C00EDA033 /* CutomizableViews.swift */; };
-		8BC59BCF1E8F020C00EDA033 /* CustomizableButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BCB1E8F020C00EDA033 /* CustomizableButtons.swift */; };
-		8BC59BD01E8F020C00EDA033 /* CustomizableTextfields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BCC1E8F020C00EDA033 /* CustomizableTextfields.swift */; };
 		8BC59BD31E8F09DD00EDA033 /* PostimageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BD21E8F09DD00EDA033 /* PostimageTableViewCell.swift */; };
 		8BC59BD51E8F09EF00EDA033 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BD41E8F09EF00EDA033 /* TextTableViewCell.swift */; };
 		8BC59BD81E8F0CB100EDA033 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BD71E8F0CB100EDA033 /* Post.swift */; };
@@ -39,7 +35,29 @@
 		8BC59BDE1E8F2B1C00EDA033 /* Swiftloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BDD1E8F2B1C00EDA033 /* Swiftloader.swift */; };
 		8BC59BE01E8F2B5D00EDA033 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BDF1E8F2B5D00EDA033 /* Extension.swift */; };
 		8BC59BE21E8F480D00EDA033 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BE11E8F480C00EDA033 /* AddPostViewController.swift */; };
+		8BC59BE41E903B0400EDA033 /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BE31E903B0300EDA033 /* CustomizableImageView.swift */; };
+		8BC59BE61E903DBB00EDA033 /* CustomizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BE51E903DBB00EDA033 /* CustomizableView.swift */; };
+		8BC59BE81E90405200EDA033 /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BE71E90405200EDA033 /* CustomizableButton.swift */; };
+		8BC59BEA1E90461500EDA033 /* CustomizableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BE91E90461500EDA033 /* CustomizableTextfield.swift */; };
+		8BC59BEC1E904F0E00EDA033 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BEB1E904F0E00EDA033 /* OnboardingView.swift */; };
+		8BC59BEE1E904F4300EDA033 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC59BED1E904F4300EDA033 /* TutorialViewController.swift */; };
+		8BC59BF01E9086C600EDA033 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC59BEF1E9086C600EDA033 /* PaperOnboarding.framework */; };
+		8BC59BF11E9086C700EDA033 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC59BEF1E9086C600EDA033 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BC59BF21E9086C700EDA033 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BC59BF11E9086C700EDA033 /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		220698831E066E4900F2284B /* Helper Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Helper Files.swift"; path = "Helper files/Helper Files.swift"; sourceTree = "<group>"; };
@@ -64,10 +82,6 @@
 		8BC59BA51E8DB89E00EDA033 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BC59BC51E8E28E700EDA033 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		8BC59BC71E8F00DF00EDA033 /* HomeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoViewController.swift; sourceTree = "<group>"; };
-		8BC59BC91E8F020C00EDA033 /* CutomizableImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CutomizableImageViews.swift; path = "../GivOrTake2/GivOrTake!/CutomizableImageViews.swift"; sourceTree = "<group>"; };
-		8BC59BCA1E8F020C00EDA033 /* CutomizableViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CutomizableViews.swift; path = "../GivOrTake2/GivOrTake!/CutomizableViews.swift"; sourceTree = "<group>"; };
-		8BC59BCB1E8F020C00EDA033 /* CustomizableButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableButtons.swift; path = "../GivOrTake2/GivOrTake!/CustomizableButtons.swift"; sourceTree = "<group>"; };
-		8BC59BCC1E8F020C00EDA033 /* CustomizableTextfields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizableTextfields.swift; path = "../GivOrTake2/GivOrTake!/CustomizableTextfields.swift"; sourceTree = "<group>"; };
 		8BC59BD21E8F09DD00EDA033 /* PostimageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostimageTableViewCell.swift; sourceTree = "<group>"; };
 		8BC59BD41E8F09EF00EDA033 /* TextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		8BC59BD71E8F0CB100EDA033 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -76,6 +90,13 @@
 		8BC59BDD1E8F2B1C00EDA033 /* Swiftloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftloader.swift; sourceTree = "<group>"; };
 		8BC59BDF1E8F2B5D00EDA033 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8BC59BE11E8F480C00EDA033 /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		8BC59BE31E903B0300EDA033 /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImageView.swift; sourceTree = "<group>"; };
+		8BC59BE51E903DBB00EDA033 /* CustomizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableView.swift; sourceTree = "<group>"; };
+		8BC59BE71E90405200EDA033 /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableButton.swift; sourceTree = "<group>"; };
+		8BC59BE91E90461500EDA033 /* CustomizableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableTextfield.swift; sourceTree = "<group>"; };
+		8BC59BEB1E904F0E00EDA033 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8BC59BED1E904F4300EDA033 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		8BC59BEF1E9086C600EDA033 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		B8041C4B4A9DA4F0F53D2BDE /* Pods_QuickChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B859A0175604984846FBC6B1 /* Pods_GOT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FBFCFF82B6EB57B02FA375 /* Pods-QuickChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickChat/Pods-QuickChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC59BF01E9086C600EDA033 /* PaperOnboarding.framework in Frameworks */,
 				226EFFA11E1BBBCA00B1D185 /* MapKit.framework in Frameworks */,
 				62058F6006BD9ACBE0439C4B /* Pods_QuickChat.framework in Frameworks */,
 				3B9C1B1A6F6543DB0119F8DE /* Pods_GOT.framework in Frameworks */,
@@ -141,6 +163,7 @@
 		22A92BA41D59EBD5005D76F7 = {
 			isa = PBXGroup;
 			children = (
+				8BC59BEF1E9086C600EDA033 /* PaperOnboarding.framework */,
 				22A92BAF1D59EBD6005D76F7 /* QuickChat */,
 				22A92BAE1D59EBD6005D76F7 /* Products */,
 				ADD6E8E924E29AFE4DBB9FB3 /* Pods */,
@@ -160,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				22A92BB01D59EBD6005D76F7 /* AppDelegate.swift */,
+				8BC59BEB1E904F0E00EDA033 /* OnboardingView.swift */,
+				8BC59BED1E904F4300EDA033 /* TutorialViewController.swift */,
 				224AFA9C1D867DE7004E7CCD /* Main.storyboard */,
 				224AFA9E1D868371004E7CCD /* ViewControllers */,
 				8BC59BD61E8F0A0900EDA033 /* controllerCells */,
@@ -186,10 +211,10 @@
 		8BC59BD11E8F021900EDA033 /* Customization */ = {
 			isa = PBXGroup;
 			children = (
-				8BC59BC91E8F020C00EDA033 /* CutomizableImageViews.swift */,
-				8BC59BCA1E8F020C00EDA033 /* CutomizableViews.swift */,
-				8BC59BCB1E8F020C00EDA033 /* CustomizableButtons.swift */,
-				8BC59BCC1E8F020C00EDA033 /* CustomizableTextfields.swift */,
+				8BC59BE31E903B0300EDA033 /* CustomizableImageView.swift */,
+				8BC59BE51E903DBB00EDA033 /* CustomizableView.swift */,
+				8BC59BE71E90405200EDA033 /* CustomizableButton.swift */,
+				8BC59BE91E90461500EDA033 /* CustomizableTextfield.swift */,
 			);
 			name = Customization;
 			sourceTree = "<group>";
@@ -228,6 +253,7 @@
 				22A92BAB1D59EBD5005D76F7 /* Resources */,
 				62D3364F6C35C0B3DF08236F /* [CP] Embed Pods Frameworks */,
 				59C78960725AB64FF0FC6829 /* [CP] Copy Pods Resources */,
+				8BC59BF21E9086C700EDA033 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,25 +375,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC59BE41E903B0400EDA033 /* CustomizableImageView.swift in Sources */,
 				8BC59BDC1E8F2AAB00EDA033 /* SCLAlertViews.swift in Sources */,
+				8BC59BE61E903DBB00EDA033 /* CustomizableView.swift in Sources */,
 				8BC59BC61E8E28E800EDA033 /* TabViewController.swift in Sources */,
+				8BC59BEA1E90461500EDA033 /* CustomizableTextfield.swift in Sources */,
 				8BC59BD51E8F09EF00EDA033 /* TextTableViewCell.swift in Sources */,
 				8BC59BDE1E8F2B1C00EDA033 /* Swiftloader.swift in Sources */,
 				2284BC451DC3582F00E36E8A /* ChatVC.swift in Sources */,
 				2274709E1DCCF9BF00645401 /* LandingVC.swift in Sources */,
 				8BC59BE21E8F480D00EDA033 /* AddPostViewController.swift in Sources */,
+				8BC59BEE1E904F4300EDA033 /* TutorialViewController.swift in Sources */,
 				22A5FC5F1DEB185B00624E2B /* NavVC.swift in Sources */,
+				8BC59BEC1E904F0E00EDA033 /* OnboardingView.swift in Sources */,
 				22B974C01DE9B5DF00E09490 /* Conversation.swift in Sources */,
-				8BC59BCF1E8F020C00EDA033 /* CustomizableButtons.swift in Sources */,
 				2217853D1DCD1DAC00A69F88 /* ConversationsVC.swift in Sources */,
 				8BC59BC81E8F00E000EDA033 /* HomeVideoViewController.swift in Sources */,
 				22A92BB11D59EBD6005D76F7 /* AppDelegate.swift in Sources */,
-				8BC59BCD1E8F020C00EDA033 /* CutomizableImageViews.swift in Sources */,
-				8BC59BCE1E8F020C00EDA033 /* CutomizableViews.swift in Sources */,
 				224AFAA91D86890A004E7CCD /* WelcomeVC.swift in Sources */,
 				8BC59BE01E8F2B5D00EDA033 /* Extension.swift in Sources */,
-				8BC59BD01E8F020C00EDA033 /* CustomizableTextfields.swift in Sources */,
 				220698841E066E4900F2284B /* Helper Files.swift in Sources */,
+				8BC59BE81E90405200EDA033 /* CustomizableButton.swift in Sources */,
 				22873DAA1DC790550021690E /* Message.swift in Sources */,
 				8BC59BD31E8F09DD00EDA033 /* PostimageTableViewCell.swift in Sources */,
 				8BC59BDA1E8F18BF00EDA033 /* NetworkingServices.swift in Sources */,
@@ -478,6 +506,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = S74N46PSY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuickChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -494,6 +526,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = S74N46PSY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = QuickChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

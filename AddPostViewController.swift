@@ -75,7 +75,7 @@ class AddPostViewController: UIViewController , UIImagePickerControllerDelegate,
         pickerController.delegate = self
         pickerController.allowsEditing = true
         
-        pickerController.mediaTypes = [kUTTypeMovie as String]
+        pickerController.mediaTypes = [kUTTypeMovie as String, kUTTypeImage as String]
         
         
         let alertController = UIAlertController(title: "Add a Media", message: "Choose From", preferredStyle: .actionSheet)
@@ -129,7 +129,6 @@ class AddPostViewController: UIViewController , UIImagePickerControllerDelegate,
         return nil
     }
     
-    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         self.dismiss(animated: true, completion: nil)
         
@@ -143,7 +142,7 @@ class AddPostViewController: UIViewController , UIImagePickerControllerDelegate,
                 self.postImageView.image = chosenImage
             }
             else {
-                self.postImageView.image = UIImage(named: "Video-thumb")
+                self.postImageView.image = UIImage(named: "video-thumb")
             }
             
             self.videoURL = chosenvideo
@@ -161,7 +160,7 @@ class AddPostViewController: UIViewController , UIImagePickerControllerDelegate,
         picker.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func savePost(_ sender: CustomizableButtons) {
+    @IBAction func savePost(_ sender: CustomizableButton) {
         
         SwiftLoader.show(animated: true)
         
@@ -231,7 +230,7 @@ class AddPostViewController: UIViewController , UIImagePickerControllerDelegate,
 }
 
 
-    
+
 
    
 

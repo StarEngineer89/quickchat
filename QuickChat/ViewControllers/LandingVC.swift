@@ -42,6 +42,10 @@ class LandingVC: UIViewController {
         case .welcome:
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "Welcome") as! WelcomeVC
             self.present(vc, animated: false, completion: nil)
+        case .tutorial:
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tutorial") as!
+            TutorialViewController
+            self.present(vc, animated: false, completion: nil)
         }
     }
     
@@ -62,7 +66,7 @@ class LandingVC: UIViewController {
                 }
             })
         } else {
-            self.pushTo(viewController: .welcome)
+            self.pushTo(viewController: .tutorial)
         }
     }
 

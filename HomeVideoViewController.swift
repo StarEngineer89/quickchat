@@ -21,8 +21,19 @@ class HomeVideoViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+          fetchAllPosts()
         // Do any additional setup after loading the view.
+    }
+    
+    private func fetchAllPosts(){
+        netservice.fetchAllPosts {(posts) in
+            self.postsArray = posts
+            self.postsArray.sort(by: { (post1, post2) -> Bool in
+                Int(post1.postDate) > Int(post2.postDate)
+            })
+            
+            self.tableView.reloadData()
+        }
     }
 
     override func didReceiveMemoryWarning() {
